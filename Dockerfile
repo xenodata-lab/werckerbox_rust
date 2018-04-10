@@ -1,4 +1,4 @@
-FROM xenodatalab/base-image-rust:1.24.1
+FROM xenodatalab/base-image-rust:1.25.0
 
 MAINTAINER xenodata lab., Inc. <development@xenodata-lab.com>
 
