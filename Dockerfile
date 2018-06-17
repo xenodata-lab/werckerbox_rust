@@ -7,10 +7,8 @@ RUN apt-get install -y \
   libmysqlclient-dev
 
 # use nightly
-# NOTE latest nightly cant build disel, so install old version.
-# SEE https://github.com/diesel-rs/diesel/issues/1722
 RUN /root/.cargo/bin/rustup update && \
-  /root/.cargo/bin/rustup default nightly-2018-05-14
+  /root/.cargo/bin/rustup default nightly
 
 RUN mkdir -p /app
 WORKDIR /app
