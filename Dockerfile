@@ -8,7 +8,7 @@ RUN apt-get install -y \
 
 # use nightly
 RUN /root/.cargo/bin/rustup update && \
-  /root/.cargo/bin/rustup default nightly-2018-06-27
+  /root/.cargo/bin/rustup default nightly-2018-07-22
 
 RUN mkdir -p /app
 WORKDIR /app
